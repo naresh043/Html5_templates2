@@ -1,3 +1,10 @@
+.container-three{
+display: flex;
+width:100%;
+gap:100px;
+}
+
+
 *{
     margin: 0;
 }
@@ -172,6 +179,13 @@ li h4 {
   height: 200px;
   padding: 36px 0px;
 }
+/* .banner-wrapper {
+  background-color: #c8d2bc;
+  margin: 0px;
+  width: 100%;
+  height: 200px;
+  padding: 36px 0px;
+}
 .container {
   margin: 0px 50px;
   width: calc(100% - 100px);
@@ -188,6 +202,78 @@ li h4 {
     text-align: center;
     box-shadow: inset 0 0 0 20px #fff;
 }
+.banner h2, .banner span {
+  color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-family: 'Arial Black', sans-serif;
+} */
+ .banner {
+  position: relative;
+    width: 100%;
+    padding: 4em 0;
+    border-radius: 10px;
+    background-image: url(https://html5up.net/uploads/demos/minimaxing/assets/css/images/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    box-shadow: inset 0 0 0 20px #fff;
+}
+
+.container-three>div{
+  width:50%;
+}
+.container-three h2{
+    text-transform: lowercase;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    margin-bottom: 1em;
+    color: #007897;
+    font-weight: normal;
+}
+.middle-three{
+display:flex;
+/*   justify-content:space-between; */
+  gap:100px;
+margin-top:10px;
+}
+/* .img-three{
+margin-top:40px;} */
+.middle-three> .item-three>h3,h3{
+  
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+}
+.middle-three> .item-three{
+max-width:300px;
+/* height:200px; */
+}
+.item-three > h3{
+font-size: 4.5em;
+ margin-bottom: 0.8em;
+  color: #283121;
+}
+.content-three p{
+  margin-bottom: 1.25em;
+  line-height: 1.8em;
+
+}
+.right-three .button{
+display: inline-block;
+    padding: 15px 25px 15px 25px;
+    background-color: #007b9d;
+    border-radius: 10px;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    border: solid 1px #006e8b;
+    box-shadow: inset 0px 0px 0px 1px #18a8c8;
+background-image: -webkit-linear-gradient(top, #008dad, #007b9d);
+}
+
+
 .banner h2, .banner span {
   color: #fff;
     text-align: center;
