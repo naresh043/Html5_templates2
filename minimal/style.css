@@ -50,9 +50,9 @@ footer{
     /* border: 2px solid white; */
     min-width: 200px;
 }
-.left-content > .links > ul{
+/* .left-content > .links > ul{
     margin-right: 10px !important;  
-}
+} */
 .left-content > .links > ul > li{
     color:#005f73;
     list-style: none;
